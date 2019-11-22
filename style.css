@@ -1,0 +1,87 @@
+body {
+	background-color: #6E5C74;
+	background-image: url(images/zmE9R3.png);
+	background-repeat: repeat-x;
+	margin: 0;
+}
+
+nav {
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	width: 900px;
+	background-color: #6E5C74;
+	text-align: center;
+	margin: auto;
+}
+
+nav a{
+	text-decoration: inherit;
+	color: inherit;
+}
+
+nav ul {
+	text-align: left;
+	display: inline;
+	margin: 0;
+	padding: 0px 5px 0px 0px;
+	list-style: none;
+	z-index: 3;
+}
+
+nav ul li {
+	display: inline-block;
+	position: relative;
+	background:  #6E5C74;
+	margin-right: -5px;
+	padding: 10px 30px;
+	text-align: center;
+	z-index: 3;
+}
+
+nav ul li:hover {
+	background: gray;
+}
+
+nav ul li ul {
+	position: absolute;
+	display: none;
+	visibility: hidden;
+	padding: 0;
+	top: 38px;
+	left: 0;
+	width: 150px;
+	z-index: 2;
+}
+
+nav ul li ul li {
+	background: gray;
+	display: block;
+	text-align: left;
+	font-size: 14px;
+}
+
+nav ul li:hover ul {
+	display: block;
+	visibility: visible;
+}
+
+nav ul li ul li:hover {
+	background: #666;
+}
+
+section {
+	width: 800px;
+	padding: 50px;
+	background-color: white;
+	margin: auto;
+}
+
+footer {
+	width: 890px;
+	color: white;
+	text-align: center;
+	margin: auto;
+	background-color: #6E5C74;
+	padding: 5px;
+}
