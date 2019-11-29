@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $("#menu").load("nav");
-    $("#footer").load("footer");
+    $("#menu").load("https://barrieca.github.io/nav");
+    $("#footer").load("https://barrieca.github.io/footer");
 
 
 });
