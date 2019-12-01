@@ -1,18 +1,14 @@
 <ul>
 <li><a href=".">Home</a></li>
-	<li><a href="" onclick="return false;">Assignments</a>
+	<li><a href="" onclick="return false;">Publications</a>
 		<ul>
-			<li><a href="assignments/assignment1/assignment1.php">Assignment 1</a></li>
-			<li><a href="assignments/assignment2/assignment2.php">Assignment 2</a></li>
-			<li><a href="assignments/assignment3/assignment3.php">Assignment 3</a></li>
-			<li><a href="assignments/assignment4/assignment4.php">Assignment 4</a></li>
-			<li><a href="assignments/assignment5/assignment5.php">Assignment 5</a></li>
+			<li><a href="papers.html">Conference Papers</a></li>
+			<!-- <li><a href="project" target="_blank">Final Project</a></li> -->
 		</ul>
 	</li>
-	<li><a href="" onclick="return false;">Project</a>
+	<li><a href="" onclick="return false;">Projects</a>
 		<ul>
-			<li><a href="project/project_description.php">Project Description</a></li>
-			<li><a href="project" target="_blank">Final Project</a></li>
+			<li><a href="" onclick="return false;">None Yet</a></li>
 		</ul>
 	</li>
 	<li><a href="about.html">About</a></li>
